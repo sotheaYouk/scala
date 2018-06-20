@@ -27,12 +27,11 @@ object compareThreeNumbers{
 
     def usingArray(): Unit={
         var num = Array(32, 26,88);
-        var x=0;
-        for(x <- 0 to (num.length-1))
+        for(x <- 0 to 2)
         {
             if(num(x)>num(x+1))
             {
-                num(x+1)=num(x);                
+                num(x)=num(x+1);                
             }
             else
             {
